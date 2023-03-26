@@ -1,0 +1,22 @@
+{
+    "name": "lru-cache",
+    "version": "1.0.0",
+    "description": "A simple and lightweight LRU cache tool, implemented using RAM",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "jest",
+        "build": "tsc"
+    },
+    "keywords": [
+        "lru-cache",
+        "lru"
+    ],
+    "author": "dengxuening",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "^29.4.0",
+        "jest": "^29.4.3",
+        "ts-jest": "^29.0.5",
+        "typescript": "^4.9.5"
+    }
+}
