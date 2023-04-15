@@ -1,6 +1,6 @@
 {
     "name": "@dengxuening/lru-cache",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "A simple and lightweight LRU cache tool, implemented using RAM",
     "main": "dist/index.js",
     "scripts": {
