@@ -1,12 +1,12 @@
 {
     "name": "@dengxuening/lru-cache",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A simple and lightweight LRU cache tool, implemented using RAM",
     "main": "dist/index.js",
     "scripts": {
         "test": "jest",
         "build": "tsc",
-        "ci": "tsc"
+        "prepublishOnly": "npm run build"
     },
     "keywords": [
         "lru-cache",
@@ -26,5 +26,6 @@
     },
     "publishConfig": {
         "@dengxuening:registry": "https://registry.npmjs.org"
-    }
+    },
+    "type": "module"
 }
