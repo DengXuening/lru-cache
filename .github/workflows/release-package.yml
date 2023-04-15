@@ -1,10 +1,8 @@
 name: CD
 
 on:
-  #release:
-  #  types: [created]
-  push:
-    branches: [master]
+  release:
+    types: [created]
 
 jobs:
   build:
