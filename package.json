@@ -1,11 +1,12 @@
 {
-    "name": "lru-cache",
-    "version": "1.0.0",
+    "name": "@dengxuening/lru-cache",
+    "version": "0.0.1",
     "description": "A simple and lightweight LRU cache tool, implemented using RAM",
     "main": "dist/index.js",
     "scripts": {
         "test": "jest",
-        "build": "tsc"
+        "build": "tsc",
+        "ci": "tsc"
     },
     "keywords": [
         "lru-cache",
@@ -13,10 +14,17 @@
     ],
     "author": "dengxuening",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DengXuening/lru-cache.git"
+    },
     "devDependencies": {
         "@types/jest": "^29.4.0",
         "jest": "^29.4.3",
         "ts-jest": "^29.0.5",
         "typescript": "^4.9.5"
+    },
+    "publishConfig": {
+        "@dengxuening:registry": "https://registry.npmjs.org"
     }
 }

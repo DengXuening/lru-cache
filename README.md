@@ -7,7 +7,7 @@ priority of data, which ensures its supervisor performance.
 
 ## Installation
 ```shell
-npm i lru-cache
+npm i @dengxuening/lru-cache
 ```
 
 ## Usage
